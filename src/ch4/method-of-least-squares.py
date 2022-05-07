@@ -1,7 +1,7 @@
 import numpy as np
 import data
 
-x, y = data.getData()
+y, x = data.getData()
 
 meanx = np.mean(x)
 meany = np.mean(y)
