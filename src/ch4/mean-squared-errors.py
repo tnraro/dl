@@ -2,7 +2,7 @@ import data
 import numpy as np
 import matplotlib.pyplot as plt
 
-x, y = data.getData()
+y, x = data.getData()
 
 plt.scatter(x, y)
 plt.show()
